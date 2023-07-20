@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0572283b45.js"></script>
+    <style type="text/css">
+      nav {
+        background-color: #BF0A0A;
+        color: white;
+      }
+      .fsec {
+        background-color: #FCFCFC;
+      }
+      .fsec h1 {
+        color: #4F5AEA;
+      }
+      .fsec h4 {
+        color: #636E72;
+      }
+      .ssec {
+        background-color: #EEEEEE;
+      }
+      .btn {
+        font-size: 200%;
+        font-family: 'Oswald', sans-serif;
+        white-space: normal;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <nav class="navbar justify-content-center text-center">
+      <span class="lead">
+        <i class="fas fa-exclamation-triangle mr-2"></i>ATENÇÃO: Este vídeo será removido no dia <span id="dia"></span> de <span id="mes"></span>, aproveite enquanto está disponível!
+      </span>
+    </nav>
+
+    <section class="py-5 fsec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <h1>Tome 1x ao dia para <b>INIBIR</b> o apetite</h1>
+            <h4>Transformou Minha Vida, Recuperou Meu Corpo E Restaurou minha Confiança...</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 ssec">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10 text-center">
+            <a href="https://api.whatsapp.com/send?phone=556796547038&text=Ol%C3%A1%20tudo%20bem?%20Vim%20atrav%C3%A9s%20do%20an%C3%BAncio,%20pode%20me%20dizer%20como%20funciona%20o%20Guria%20Shape?"><img class="img-fluid" src="thumb IMG ps-adv.gif"></a>
+            <!-- TROQUE SEU LINK ONDE ESTÁ O DO PROTOCOLOZEROBARRIGA.COM, MANTENDO AS ASPAS -->
+            <a class="btn btn-success btn-lg p-4 mt-5" href="https://api.whatsapp.com/send?phone=556796547038&text=Ol%C3%A1%20tudo%20bem?%20Vim%20atrav%C3%A9s%20do%20an%C3%BAncio,%20pode%20me%20dizer%20como%20funciona%20o%20Guria%20Shape?">QUERO TIRAR MINHAS DÚVIDAS!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col text-center">
+            <a href="https://protocolozerobarriga.com/termos" class="text-white font-weight-bold">Termos de Uso</a> | <a href="https://protocolozerobarriga.com/privacidade" class="text-white font-weight-bold">Política de Privacidade</a>
+            <p class="font-weight-bold">© 2022 – Todos os direitos reservados. Este site não faz parte do Google, Inc. ou Google.com, nem é patrocinado ou endossado pelo Google. YouTube é uma marca comercial da Google, Inc. Isenção de responsabilidade: todas as informações fornecidas são apenas para uso educacional. A consulta adequada é sempre recomendada antes de iniciar qualquer tipo de programa de saúde e bem-estar. O conteúdo do site é baseado na opinião do autor e é fornecido exclusivamente "como está" e "conforme disponível". Você deve fazer sua própria pesquisa e confirmar as informações com outras fontes ao buscar informações sobre questões de saúde e sempre revisar as informações cuidadosamente com seu profissional de saúde antes de usar qualquer um dos protocolos apresentados neste site e/ou no produto vendido aqui. O autor não está envolvido na prestação de serviços ou conselhos médicos ou profissionais similares por meio deste site, e as informações fornecidas não pretendem substituir o conselho médico oferecido por um médico ou outro profissional de saúde licenciado.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      monName = new Array ("janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto", "setembro", "outubro", "novembro", "dezembro")
+
+      var data = new Date();
+      var dia = data.getDate();
+      var mes = monName[data.getMonth()];
+
+      document.getElementById("dia").innerHTML = dia
+      document.getElementById("mes").innerHTML = mes
+    </script>
+  </body>
+</html>
